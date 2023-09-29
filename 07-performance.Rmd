@@ -102,7 +102,7 @@ Monopoly is a board game that originated in the United States over $100$ years a
 The **efficient** package contains a Monte-Carlo function for simulating a simplified game of monopoly. By keeping track of where a person lands when going round the board, we obtain an estimate of the probability of landing on a certain square. The entire code is around 100 lines long. In order for **profvis** to fully profile the code, the **efficient** package needs to be installed from source
 
 ```{r eval=FALSE}
-devtools::install_github("csgillespie/efficient",
+remotes::install_github("csgillespie/efficient",
                          args = "--with-keep.source")
 ```
 
